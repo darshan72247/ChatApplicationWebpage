@@ -1,0 +1,204 @@
+html{
+  scroll-behavior: smooth;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+/* tags CSS */
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat"
+}
+
+/* top-button */
+
+
+.top-button{
+  position: fixed;
+  bottom:30px;
+  right:30px;
+}
+
+
+/* headings */
+.main-heading {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: grey;
+  line-height: 1.5;
+}
+
+/* container class of bootstrap */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+ /* Sections */
+.coloured-section{
+  background-color: #e0ece4;
+}
+.white-section{
+  background-color: #fff;
+}
+
+/* navigationbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* title section */
+
+#title .container-fluid {
+  padding: 4% 15%;
+  text-align: left;
+}
+
+
+/* download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.iphone {
+  margin-left: 60px;
+  transform: rotate(30deg);
+  width: 250px;
+  height: 500px;
+  text-align: right;
+}
+
+/* features section */
+#features {
+  margin: 7% 15%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.features-screenshot-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon:hover {
+  color: #056676;
+}
+
+.icon {
+  color: #00bcd4;
+  margin-bottom: 1rem;
+}
+
+/* features-screenshot Section */
+#features-screenshot {
+  color: grey;
+}
+
+.login-screen, .main-screen {
+  transform: rotate(-30deg);
+  height: 500px;
+  width: 500px;
+}
+
+.chat-screen, .addNewPeople-screen {
+  transform: rotate(30deg);
+  height: 500px;
+  width: 500px;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+#features p {
+  font-family: "Ubuntu";
+}
+
+/* more-about-code section */
+.firebase {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.information {
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
+#More-about-code p {
+  font-family: "Ubuntu";
+}
+
+@media (max-width:990px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* github clone */
+#cta {
+  padding-bottom: 0%;
+}
+
+.Icon {
+  height: 30px;
+}
+
+#cta button {
+  margin: 5px 0;
+}
+
+#cta a {
+  color: inherit;
+}
+
+.punch-line {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer {
+  padding: 5% 15% 1%;
+}
+
+p {
+  font-family: "Montserrat-600";
+}

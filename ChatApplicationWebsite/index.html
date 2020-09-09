@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Chat Application</title>
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Bootstarp Script -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/65fe1399ed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <span class="top-button"><a href="#title"><i class="fas fa-chevron-circle-up fa-3x"></i></a></span>
+
+  <section id="title" class="coloured-section">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="">Chat Application</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#More-about-code">Application Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Clone Project</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="main-heading">Meet new and interesting people by just texting.</h1>
+          <button class="btn btn-dark btn-lg download-button" type="button"><i class="fab fa-apple"></i>&nbsp;Apple</button>
+          <button class="btn btn-light btn-lg download-button" type="button"><i class="fab fa-swift"></i>&nbsp;Swift</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="iphone" src="images/mockup/edited.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="row">
+      <div class="col-lg-4 feature-box ">
+        <i class="icon fas fa-comment-dots fa-4x"></i>
+        <h3 class="feature-title">Easy to use.</h3>
+        <p>So easy to use, even your childeren can use it.</p>
+      </div>
+
+      <div class="col-lg-4 feature-box ">
+        <i class="icon fas fa-user-secret fa-4x"></i>
+        <h3 class="feature-title">Privacy matters</h3>
+        <p>Your data and google privacy makes a unique combination.</p>
+      </div>
+
+      <div class="col-lg-4 feature-box">
+        <i class="icon fas fa-photo-video fa-4x"></i>
+        <h3 class="feature-title">File sharing</h3>
+        <p>Send your images and video to loved ones.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- features-screenshoot -->
+
+  <section class="coloured-section" id="features-screenshot">
+
+    <div id="carouselControls" class="carousel slide" data-ride="carousel" data-touch="true" data-interval="3000" data-pause=false>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="login-screen" src="images\allScreenshotImages\loginScreen_iphonexspacegrey_portrait.png" alt="loginScreen">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="features-screenshot-text"> Add Profile image of your choice and even e-mail of your choice while registering.</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2 class="features-screenshot-text">Send Images and video to your loved ones with high quality.</h2>
+            </div>
+            <div class="col-lg-6">
+              <img class="chat-screen" src="images\allScreenshotImages\images_iphonexspacegrey_portrait.png" alt="chatimages">
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="main-screen" src="images\allScreenshotImages\proffMainScreen_iphonexspacegrey_portrait.png" alt="Mainscreen">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="features-screenshot-text">Main chat screen shows your last chats with their timing.</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2 class="features-screenshot-text">Add people in your list from different corners of the world.</h2>
+            </div>
+            <div class="col-lg-6">
+              <img class="addNewPeople-screen" src="images\allScreenshotImages\contacts_iphonexspacegrey_portrait.png" alt="contactsScreenshotImage">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <!-- <section id="press">
+    <img src="images/techcrunch.png" alt="tc-logo">
+    <img src="images/tnw.png" alt="tnw-logo">
+    <img src="images/bizinsider.png" alt="biz-insider-logo">
+    <img src="images/mashable.png" alt="mashable-logo">
+
+  </section> -->
+
+
+  <!-- information about aplication -->
+
+  <section class="white-section" id="More-about-code">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <i class="fab fa-apple fa-6x"></i>
+          <h2 class="information">iOS Application</h2>
+          <p>This application required ios 13 or high to be compatible with your device.</p>
+          <p><a class="btn btn-outline-dark" href="https://github.com/darshan72247/ChatApplication" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-md-6">
+          <img class="firebase" src="images/firebase.png" alt="firebase">
+          <h2 class="information">Google Firebase</h2>
+          <p>All the data is been store on cloud firestore maintain and by Google.</p>
+          <p><a class="btn btn-outline-dark" href="https://firebase.google.com/docs/firestore" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-md-12">
+          <i class="fab fa-swift fa-6x"></i>
+          <h2 class="information">Swift</h2>
+          <p>This application is made programmatically without using storyboard in Xcode.</p>
+          <p><a class="btn btn-outline-dark" href="https://medium.com/@chan.henryk/storyboard-vs-programmatically-in-swift-9a65ff6aaeae" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta" class="container-fluid coloured-section">
+    <h3 class="punch-line">Find the Right People to Broden Your Knowledge.</h3>
+    <button type="button" class="btn btn-light btn-lg download-button"><a href="https://github.com/darshan72247/ChatApplication.git"><img class="Icon" src="https://image.flaticon.com/icons/svg/733/733609.svg" />&nbsp;Clone Project.</a></button>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer" class="coloured-section">
+
+    <p>© Copyright 2020 ChatApplication</p>
+
+  </footer>
+
+
+</body>
+
+</html>
